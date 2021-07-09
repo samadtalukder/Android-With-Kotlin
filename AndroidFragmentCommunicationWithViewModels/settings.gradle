@@ -1,0 +1,2 @@
+rootProject.name = "Android Fragment Communication With ViewModels"
+include ':app'
