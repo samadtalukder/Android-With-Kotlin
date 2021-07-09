@@ -9,6 +9,7 @@ import com.samad_talukder.androidviewbindinginrecyclerview.databinding.ActivityM
 class MainActivity : AppCompatActivity() {
     // initialize binding
     private lateinit var mainBinding: ActivityMainBinding
+    private var listItem = ArrayList<IncDecModel>()
     var data = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,8 +18,6 @@ class MainActivity : AppCompatActivity() {
         mainBinding = ActivityMainBinding.inflate(LayoutInflater.from(this))
 
         setContentView(mainBinding.root)
-
-        val listItem = ArrayList<IncDecModel>()
 
         val adapter = RvIncDecAdapter(this)
 
@@ -44,8 +43,11 @@ class MainActivity : AppCompatActivity() {
 
         val _layoutManager = LinearLayoutManager(this)
 
-        mainBinding.rvShowData.layoutManager = _layoutManager
-        mainBinding.rvShowData.adapter = adapter
+        mainBinding.rvShowData.apply {
+            mainBinding.rvShowData.layoutManager = _layoutManager
+            mainBinding.rvShowData.adapter = adapter
+        }
+
 
     }
 }
