@@ -4,6 +4,9 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
+import com.samad_talukder.androidfragmentcommunicationwithviewmodels.fragments.InputFragment
+import com.samad_talukder.androidfragmentcommunicationwithviewmodels.fragments.OutputFragment
+import com.samad_talukder.androidfragmentcommunicationwithviewmodels.view_model.MainViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

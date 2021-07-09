@@ -1,4 +1,4 @@
-package com.samad_talukder.androidfragmentcommunicationwithviewmodels
+package com.samad_talukder.androidfragmentcommunicationwithviewmodels.view_model
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

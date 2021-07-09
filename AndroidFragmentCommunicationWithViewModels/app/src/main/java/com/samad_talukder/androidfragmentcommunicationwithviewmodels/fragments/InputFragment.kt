@@ -1,4 +1,4 @@
-package com.samad_talukder.androidfragmentcommunicationwithviewmodels
+package com.samad_talukder.androidfragmentcommunicationwithviewmodels.fragments
 
 import android.os.Bundle
 import android.text.Editable
@@ -8,6 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
+import com.samad_talukder.androidfragmentcommunicationwithviewmodels.view_model.MainViewModel
+import com.samad_talukder.androidfragmentcommunicationwithviewmodels.R
 import kotlinx.android.synthetic.main.fragment_input.*
 
 
