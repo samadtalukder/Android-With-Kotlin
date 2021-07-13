@@ -10,3 +10,12 @@
 8. [Android Fragment To Fragment Communication](https://github.com/samadtalukder/Android-With-Kotlin/tree/master/AndroidFramentToFragmentCommunication/app/src/main)
 9. [Android ViewBinding In RecyclerView](https://github.com/samadtalukder/Android-With-Kotlin/tree/master/AndroidViewBindingInRecyclerView/app/src/main)
 10. [Android Fragment Communication With ViewModels](https://github.com/samadtalukder/Android-With-Kotlin/tree/master/AndroidFragmentCommunicationWithViewModels/app/src/main)
+11. [Android HttpUrlConnection With AsyncTask](https://github.com/samadtalukder/Android-With-Kotlin/tree/master/AndroidHttpUrlConnectionWithAsyncTask/app/src/main)
+
+
+
+
+
+
+
+
