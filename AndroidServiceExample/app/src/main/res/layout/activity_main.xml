@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnBind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bind service" />
+
+        <Button
+            android:id="@+id/btnUnbind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="unbind service" />
+
+        <Button
+            android:id="@+id/btnStartBasicService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start basic service" />
+
+        <Button
+            android:id="@+id/btnStopBasicService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="stop basic service" />
+
+        <Button
+            android:id="@+id/btnStopServiceItSelf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="stop service it self" />
+
+        <Button
+            android:id="@+id/btnStartForeground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start foreground service" />
+
+        <Button
+            android:id="@+id/btnStopForeground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="stop foreground service" />
+
+        <Button
+            android:id="@+id/btnBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Background service" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
